@@ -9,6 +9,7 @@ public class sum {
         int num2=s.nextInt();
         int res=num1+num2;
         System.out.println("Sum of numbers is :"+res);
+        s.close();
     }
     
 }
