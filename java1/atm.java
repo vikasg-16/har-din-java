@@ -39,8 +39,5 @@ System.out.println("Hundred Notes required for amount:"+hundredNotes);
 System.out.println("Fifty Notes required for amount:"+fiftyNotes);
 System.out.println("Ten Notes required for amount:"+tenNotes);
 
-
-
-
 }
 }
