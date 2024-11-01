@@ -6,19 +6,16 @@ public class armstrong {
         Scanner s= new Scanner(System.in);
         System.out.println("Enter a number: ");
         int num=s.nextInt();
-        checkarmstrong(num);
-        
-
-        
+        checkarmstrong(num);    
     }
 
     public static void checkarmstrong(int n){
         int temp=n;
         int sum=0;
         while(n>0){
-            int r= n%10;
+            int r= n%10; //to get last element
             sum=sum+r*r*r;
-            n=n/10;
+            n=n/10; //to eleminate last element
         }
         if (temp==sum) {
             System.out.println("Number is armstrong: "+sum);

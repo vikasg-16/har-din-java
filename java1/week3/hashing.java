@@ -17,8 +17,8 @@ public class hashing {
         char maxVowel=' ';
         int maxCount=0;
         
-        for(Map.Entry<Character, Integer> count:map.entrySet()){
-            if (count.getValue() > maxCount) {
+        for(Map.Entry<Character, Integer> count:map.entrySet()){ // for each used for iterating every key value of hashmap 
+            if (count.getValue() > maxCount) { // 
                 maxCount = count.getValue() ;
                 maxVowel = count.getKey();
             }
